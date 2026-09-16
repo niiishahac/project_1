@@ -1,4 +1,5 @@
 # NEXUS IQ — Industrial Intelligence Platform
+deploy link-> https://arise-ai-l3ft.onrender.com/ login with admin@hmi.com / password123.
 
 > AI-prioritized alarms and role-aware HMI for small-scale industrial control rooms.
 
@@ -24,6 +25,7 @@ chmod +x start.sh && ./start.sh
 ```
 
 Open [http://localhost:5000](http://localhost:5000) — login with `admin@hmi.com` / `password123`.
+
 
 ## 60-Second Demo Script
 
