@@ -1,4 +1,5 @@
 # project_1
+
 deploy link-> https://arise-ai-l3ft.onrender.com/
 login with admin@hmi.com / password123.
 
@@ -29,21 +30,6 @@ Step	Action
 4	Logout → Login as Manager → /manager/kpis
 5	Logout → Login as Engineer → /engineer/signals → search "PT"
 
-Architecture
-
-
-
-
-┌─────────────┐    HTTP/JSON     ┌──────────────┐    SQLite   ┌──────────┐
-│  Dash App   │ ◄──────────────► │  FastAPI API │ ◄──────────►│ nexus.db │
-│ (port 5000) │                  │  (port 8000) │             └──────────┘
-└─────────────┘                  └──────┬───────┘
-                                        ▲
-                                        │ POST /api/sensor/ingest
-                                 ┌──────┴───────┐
-                                 │  sensor_sim  │
-                                 │  (PLC sim)   │
-                                 └──────────────┘
 
 
 
