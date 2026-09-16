@@ -29,10 +29,11 @@ Step	Action
 4	Logout → Login as Manager → /manager/kpis
 5	Logout → Login as Engineer → /engineer/signals → search "PT"
 
-
-
-
 Architecture
+
+
+
+
 ┌─────────────┐    HTTP/JSON     ┌──────────────┐    SQLite   ┌──────────┐
 │  Dash App   │ ◄──────────────► │  FastAPI API │ ◄──────────►│ nexus.db │
 │ (port 5000) │                  │  (port 8000) │             └──────────┘
@@ -43,6 +44,7 @@ Architecture
                                  │  sensor_sim  │
                                  │  (PLC sim)   │
                                  └──────────────┘
+
 
 
                                  
