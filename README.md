@@ -28,6 +28,10 @@ Step	Action
 3	Navigate to /ai-insights → Z-scores updating every 2s
 4	Logout → Login as Manager → /manager/kpis
 5	Logout → Login as Engineer → /engineer/signals → search "PT"
+
+
+
+
 Architecture
 ┌─────────────┐    HTTP/JSON     ┌──────────────┐    SQLite   ┌──────────┐
 │  Dash App   │ ◄──────────────► │  FastAPI API │ ◄──────────►│ nexus.db │
@@ -39,6 +43,9 @@ Architecture
                                  │  sensor_sim  │
                                  │  (PLC sim)   │
                                  └──────────────┘
+
+
+                                 
 Layer	Technology
 Frontend	Python Dash + Plotly + Bootstrap (dark HMI theme)
 Backend	FastAPI + SQLite with WAL mode
