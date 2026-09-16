@@ -1,6 +1,7 @@
 # project_1
 deploy link-> https://arise-ai-l3ft.onrender.com/
 login with admin@hmi.com / password123.
+
 NEXUS IQ — Industrial Intelligence Platform
 AI-prioritized alarms and role-aware HMI for small-scale industrial control rooms.
 
